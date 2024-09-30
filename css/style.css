@@ -1,0 +1,126 @@
+:root {
+    --color_letra_prin: white;
+    --fuente_prin: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #515DEF;
+    background-image: url(../img/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+    background-position: top right -100px ;
+    background-size:50%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1650px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: var(--fuente_prin);
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 148px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin-bottom: 40px;
+}
+
+header .main-menu {
+    width: 100%;
+}
+
+header .main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 56px ;
+    margin: 0;
+    padding: 0;
+}
+
+header .main-menu a {
+    color: var(--color_letra_prin);
+    text-decoration: none;
+}
+
+.main-menu ul li:last-child {
+   margin-left: auto;
+   background-color: #515DEF;
+   display: inline-block;
+   padding: 10px 15px;
+
+}
+
+
+.hero{
+    width: 55%;
+    margin-bottom: 60px;
+    color: var(--color_letra_prin);
+}
+.hero p{
+    font-size: 18px;
+   
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: var(--color_letra_prin);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    background-color: var(--color_letra_prin);
+    padding: 10px 12px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: black;
+
+}
+
+.categories {
+    width: 90%;
+    background-color:var(--color_letra_prin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  30px 110px;
+    gap: 60px;
+    box-sizing: border-box;
+    transform: translateX(-130px);
+}
+
+.categories img {
+    width: 50px;
+}
+
+.categories div {
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.categories div h3 {
+ margin-bottom: 0;
+ font-weight: 500;
+ 
+}
+
+.categories div p {
+    color: #909090;
+    margin-top: 9px;
+    font-weight: 300;
+    
+}
